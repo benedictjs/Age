@@ -22,7 +22,7 @@ year=todayDate-yre
     inputEl.value=''
 }
 function callfun(){
-    h4El.innerText='Please Enter A valid Date with month, day and year'
+    h4El.innerText='Please Enter A valid year Only'
     setTimeout(()=>{
         h4El.innerText='Enter your date of birth:'
     },4500)
